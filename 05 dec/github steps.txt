@@ -1,0 +1,36 @@
+goto github.com
+create account   
+    use a proper genuine email
+    use a proper username
+
+on top right click on + symbol 
+then click on "New repository"
+ 
+give in box repository name
+please choos mode is public 
+at last click on green button create repository 
+
+on google search gitbash download 
+https://git-scm.com/downloads 
+click on download for windows 
+
+goto folder and right click 
+select option "Git bAsh here" 
+
+very first time in pc when you install git bash 
+write this commands 
+git config --global user.name "github_username"
+git config --global user.email "github_account_email"
+
+first time reopistory link with pc folder 
+
+git init 
+git add . 
+git commit -m "Your_message"
+git remote add origin https://github.com/sugandhsec/Tops-Demo.git
+git push -u origin master
+
+everytime update commands 
+git add . 
+git commit -m "Your_message"
+git push -u origin master
