@@ -35,10 +35,12 @@ int main()
         printf("Enter Percentage: ");
         scanf("%f", &s[i].percentage);
     }
-    printf("*****************************************************\n");
+    printf("**************************************************************************\n");
+    printf("name\t|\tage\t|\tmarks\t|\tpercentage\t|\n");
     for (int i = 0; i < n; i++)
     {
-        printf("%s\t**%d\t**%d\t**%f\t\n**", s[i].name, s[i].age, s[i].marks, s[i].percentage);
+        printf("--------------------------------------------------------------------\n");
+        printf("%s\t|\t%d\t|\t%d\t|\t%f\t|\n", s[i].name, s[i].age, s[i].marks, s[i].percentage);
     }
     printf("*****************************************************\n");
     return 0;

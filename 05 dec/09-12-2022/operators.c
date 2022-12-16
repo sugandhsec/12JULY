@@ -19,7 +19,7 @@ types of operators based on working
 2)relation or comparison operator  > < >= <= == !=
 3)assignement operator  = += -= *= /= %=
 4)logical operator AND(&&) OR(||) NOT(!)
-5)bitwise operator >> << 
+5)bitwise operator >> << & | 
 6)Miscelleanous operator  *(pointer)  &(Address opereator) sizeof
 
 */

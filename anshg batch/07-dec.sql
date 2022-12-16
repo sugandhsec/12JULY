@@ -21,11 +21,13 @@ primary key(courseID)
 -- alter table course modify due varchar(50) ;
 -- alter table course rename column due to duration; 
 -- alter table course change column fees studentfees varchar(10);
--- alter table course drop column due;
+-- alter table course drop column
+
+
 -- Drop And Truncate
 drop table purpose;
 truncate table purpose;
-create table student(
+create table namedstudent(
 studentID int auto_increment,
 student_name varchar(50),
 email varchar(20),
