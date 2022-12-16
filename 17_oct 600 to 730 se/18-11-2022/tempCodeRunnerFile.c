@@ -1,0 +1,1 @@
+har copyname[25] = {'h', 'e', 'l', 'l', 'o'};
