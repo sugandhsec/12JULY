@@ -7,7 +7,7 @@ on top right click on + symbol
 then click on "New repository"
  
 give in box repository name
-please choos mode is public 
+please choose mode is public 
 at last click on green button create repository 
 
 on google search gitbash download 

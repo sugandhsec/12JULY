@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int day = 7;
+    int day = 3;
     // printf("Enter Day :");
     // scanf("%d", &day);
     switch (day)
@@ -53,6 +53,9 @@ int main()
 switch(expression)
 {
     case 1:
+    {
+
+    }
 
     case 2:
 

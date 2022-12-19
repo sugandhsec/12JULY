@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "nestedifelse.C": "cpp"
+        "nestedifelse.C": "cpp",
+        "stdio.h": "c"
     }
 }
