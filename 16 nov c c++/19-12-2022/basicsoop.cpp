@@ -11,24 +11,30 @@ public:       // access modifiers
     }
     void addition()
     {
-        int answer = a + b;//local
+        int answer = a + b; // local
         cout << "Addition =" << answer;
     }
     void justcheck()
     {
         // cout << "Addition =" << answer;
-
     }
 };
 
 int main()
 {
-    calculation obj1, obj2;
-    obj1.getdata();
-    obj1.addition();
-    // obj2.a = 55;
-    // obj2.b = 48;
-    obj2.addition();
+    calculation obj1[10];
+    for (int i = 0; i < 10; i++)
+    {
+        obj1[i].getdata();
+        obj1[i].addition();
+        obj1->justcheck();
+    }
+
+    // obj1.getdata();
+    // obj1.addition();
+    // // obj2.a = 55;
+    // // obj2.b = 48;
+    // obj2.addition();
     return 0;
 }
 /*
