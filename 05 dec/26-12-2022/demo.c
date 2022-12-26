@@ -1,16 +1,19 @@
 #include <stdio.h>
 int main()
 {
-    printf("simple calculator");
-    int A, B;
-    printf("enter the value of A = ", A);
-    scanf("%d", &A);
-    printf("enter the value of B = ", B);
-    scanf("%d", &B);
-    printf("A + B = %d \n", A + B);
-    printf("A - B = %d \n", A - B);
-    printf("A * B = %d \n", A * B);
-    printf("A / B = %d \n", A / B);
-    printf("A %% B = %d", A % B);
+    int num, large = 0, temp;
+    printf("enter a digit to fing greater amoung the digit :- ");
+    scanf("%d", &num);
+    while (num != 0)
+    {
+        temp = num % 10;
+        if (large <= temp)
+        {
+            large = temp;
+        }
+        num /= 10;
+    }
+
+    printf("the largest number among the digit is :- %d", large);
     return 0;
 }
