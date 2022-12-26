@@ -5,7 +5,7 @@
 comment are of two types
 single line --
 multiline /* */
-create table purpose(
+create table coure_backup(
 courseID int auto_increment,
 course_name varchar(50),
 fees int ,
