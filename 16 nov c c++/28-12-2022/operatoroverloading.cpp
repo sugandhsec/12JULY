@@ -1,7 +1,29 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
+class A
+{
+public:
+    int x;
+    A() {}
+    A(int m)
+    {
+        x = m;
+    }
+
+    int operator+(A k)
+    {
+        int c = x + k.x;
+        return c;
+    }
+};
 int main()
 {
+    int answer;
+    A obj1(20);
+    A obj2(40);
+    A obj3(90);
+    answer = obj1 + obj2;
+    cout << "Addition = " << answer;
     return 0;
 }
 /*
