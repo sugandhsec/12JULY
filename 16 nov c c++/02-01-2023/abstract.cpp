@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+class Base
+{
+public:
+    virtual void print() = 0;
+};
+
+class Derived : public Base
+{
+public:
+    void print()
+    {
+        cout << "Derived Function" << endl;
+    }
+};
+
+int main()
+{
+    Derived derived1;
+    // derived1.print()
+
+    // pointer of Base type that points to derived1
+    Base *base1 = &derived1;
+
+    // calls member function of Derived class
+    base1->print();
+
+    return 0;
+}

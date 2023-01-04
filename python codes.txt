@@ -1,0 +1,10 @@
+When installing apps in settings files stored it as 
+
+"appname.apps.ProjectsConfig"
+
+
+
+
+
+
+
