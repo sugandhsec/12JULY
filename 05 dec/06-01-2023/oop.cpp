@@ -1,0 +1,10 @@
+/*
+class
+object
+constructor
+destructor
+inheritance
+polymorphism
+encapsulation
+abstraction
+*/
