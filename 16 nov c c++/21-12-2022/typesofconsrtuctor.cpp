@@ -21,7 +21,10 @@ public:
     {
         cout << "Area Of circle = " << 3.14 * r * r;
     }
-    calculation(int a, int b) // parameterised constructor
+    calculation(int a, int
+    
+    
+     b) // parameterised constructor
     {
         cout << "Area Of rectangle= " << a * b;
     }
