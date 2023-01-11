@@ -1,0 +1,7 @@
+class calculation
+
+3 constructor
+
+1-default user se 1 value uska area of cirlce 
+2-one paramter area of square 
+3-2 parameter area of rectangle 
